@@ -1,12 +1,16 @@
 {
-  "name": "bind",
-  "repository": "ianstormtaylor/bind",
-  "license": "MIT",
-  "version": "0.0.2",
+  "name": "ianstormtaylor-bind",
   "description": "A clear API for function binding helpers.",
-  "keywords": ["function", "bind", "method", "all"],
+  "version": "0.0.2",
+  "keywords": [
+    "function",
+    "bind",
+    "method",
+    "all"
+  ],
   "dependencies": {
-    "bind-component": "0.0.1",
-    "bind-all": "0.0.2"
-  }
+    "component-bind": "git://github.com/npmcomponent/component-bind.git",
+    "segmentio-bind-all": "git://github.com/npmcomponent/segmentio-bind-all.git"
+  },
+  "license": "MIT"
 }

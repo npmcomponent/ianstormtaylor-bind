@@ -1,11 +1,11 @@
 
 try {
-  var bind = require('bind');
+  var bind = require('component-bind');
 } catch (e) {
-  var bind = require('bind-component');
+  // commented out by npm-component: var bind = require('bind-component');
 }
 
-var bindAll = require('bind-all');
+var bindAll = require('segmentio-bind-all');
 
 
 /**
